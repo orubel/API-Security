@@ -71,6 +71,7 @@ SQL query believing the repo's name is safe input.
 
 ## How To Prevent
 
+* Use Role Based Access Control(RBAC) when validating non-public endpoints
 * When evaluating service providers, assess their API security posture.
 * Ensure all API interactions happen over a secure communication channel (TLS).
 * Always validate and properly sanitize data received from integrated APIs
