@@ -95,6 +95,7 @@ sells the information for malicious purposes.
   For example, whether it is possible to backport the improvements without
   breaking API compatibility or if you need to take the older version out
   quickly and force all clients to move to the latest version.
+* Decrement older API's and always use Role Based Access control on non-public endpoints
 
 
 ## References
