@@ -139,6 +139,7 @@ can view the credentials of the cloud environment.
   parsing inconsistencies.
 * Validate and sanitize all client-supplied input data.
 * Do not send raw responses to clients.
+* Run URI through all checks that you run when checking access/permissions on incoming request (ie RBAC, proper headers, OWASP API3:2019, etc)
 
 ## References
 
