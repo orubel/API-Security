@@ -85,6 +85,7 @@ The mitigation planning should be done in two layers:
 * Secure and limit access to APIs that are consumed directly by machines (such
   as developer and B2B APIs). They tend to be an easy target for attackers
   because they often don't implement all the required protection mechanisms.
+* Use Role Based Access Control(RBAC) to secure non-public endpoints
 
 ## References
 
